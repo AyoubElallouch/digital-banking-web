@@ -14,3 +14,9 @@ export interface AccountOperation {
   type:          string;
   description:   string;
 }
+
+export interface AccountsCustomersDetails
+{
+  id: string;
+  type: string;
+}

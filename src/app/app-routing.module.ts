@@ -8,6 +8,7 @@ import {CustomerAccountsComponent} from "./customer-accounts/customer-accounts.c
 const routes: Routes = [
   { path :"customers", component : CustomersComponent},
   { path :"accounts", component : AccountsComponent},
+  { path :"accounts/:id", component : AccountsComponent},
   { path :"new-customer", component: NewCustomerComponent},
   { path :"customer-accounts/:id", component: CustomerAccountsComponent},
 ];
